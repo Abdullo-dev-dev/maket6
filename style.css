@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding: 25px 0;
+    box-shadow: 1px 2px #E5E5E5;
+}   
+header .FoodZone1{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    position: relative;
+}
+.headerButton button{
+    padding: 10px 42px 10px 68px;
+    border-radius: 12px;
+    background-color: #FC004A;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.FoodZone2 ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.FoodZone2 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    font-family: sans-serif;
+}
+.FoodZone2 ul li{
+    list-style: none;
+}
+.headerFoodZone{
+    display: flex;
+    align-items: center;
+    gap: 174px;
+    margin-left: 9%;
+}
+section{
+    padding-top: 65px;
+}
+.mainFirstImg img{
+    width: 100%;
+    height: 293px;
+    border-radius: 15px;
+}
+.mainH1 h1{
+    padding-top: 65px;
+    font-size: 33px;
+    color: #262626;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 9%;
+}
+.mainFoodZoneBuy{
+    margin: 56px 0;
+}
+.FoodZoneBuy{
+    width: 235px;
+    height: 391px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px #0000001A;
+    position: relative;
+
+}
+.FoodZoneBuy img{
+    width: 235px;
+}
+.FoodZoneBuy h3{
+    font-size: 17px;
+    color: #000000;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+    margin-left: 20px;
+}   
+.FoodZoneBuy p{
+    font-size: 19px;
+    color: #FC004A;
+    font-family: sans-serif;
+    margin-left: 20px;
+
+}   
+.FoodZoneBuy button{
+    padding: 5px 15px;
+    font-size: 30px;
+    color: white;
+    background-color: #FC004A;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.mainFoodZoneBuy{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+footer .footerTitle{
+    display: flex;
+    align-items: center;
+    padding: 61px 0;
+    justify-content: center;
+    gap: 274px;
+}
+footer .footerTitle p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    font-family: sans-serif;
+    
+}
+/* tablet forma////////////////////////////////////////////////////////// */
+@media(max-width:1024px){
+    .FoodZone1 img{
+        display: none;
+    }
+}
+/* mobile form/////////////////////////////////////////////////////////// */
+@media(max-width:768px){
+    .FoodZone2 ul{
+        display: none;
+    }
+    .div{
+        width: 35px;
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;
+    }
+    .div div{
+        background-color: black;
+        height: 5px;
+    }
+    .headerFoodZone{
+        justify-content: space-between;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .mainFoodZoneBuy{
+        justify-content: center;
+    }
+}
